@@ -1,0 +1,3 @@
+dnspython==1.15.0
+netaddr==0.7.19
+python-nmap==0.6.1
