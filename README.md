@@ -28,8 +28,6 @@ All the information can be dumped into a **JSON file** to be analyzed later.
   -d , --domain   domain name to analyze
   -j , --json     dump all the info into a json file
 
-
-
 ```
 
 
