@@ -9,6 +9,8 @@ Pyntest is an automated tool to **scan domain vulnerabilities** and generate rep
 
 All the information can be dumped into a **JSON file** to be analyzed later.
 
+This app was **written in 2018**.
+
 
 ## Requirements
 + Python 2.7
