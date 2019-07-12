@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<records>
+    <record ns_server="82.223.252.103" type="info" zone_transfer="failed"/>
+    <record ns_server="82.223.132.138" type="info" zone_transfer="success"/>
+    <record address="82.223.252.103" mname="ns1.area-innova.com" type="SOA" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" target="ns1.area-innova.com" type="NS" zone_server="82.223.132.138"/>
+    <record address="82.223.132.138" target="ns2.area-innova.com" type="NS" zone_server="82.223.132.138"/>
+    <record strings="v=spf1 a mx a:draco.areainnova.com a:apolo.area-innova.com ip4:82.223.132.138 ip4:82.223.244.32 ~all" type="TXT" zone_server="82.223.132.138"/>
+    <record strings="v=DMARC1; rua=mailto:soporte@areainnova.com; ruf=mailto:soporte@areainnova.com; p=none; sp=none; fo=0;" type="TXT" zone_server="82.223.132.138"/>
+    <record strings="t=y; o=~;" type="TXT" zone_server="82.223.132.138"/>
+    <record strings="v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIOL56mujRiMlPrVQUciA5/xB/TW1oBzWlRTdZPGEDhGHMSvaE8FB+dQxnAVFvnTladlUHTimz24ADr7Yc1nAz28sqDTXDM6KC94aVin09+ijR2GKspEAR9a7lCaVJHZTqQBcgq1YUBZxYv0vtRXNY3G/T8Gj36RjxCPNSwnp0OwIDAQAB" type="TXT" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="@.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.239.165" name="mioptico.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.234.39" name="pruebas.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.239.30" name="affbd.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.239.71" name="afftest.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.239.165" name="www.mioptico.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="soporte.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.132.138" name="draco.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="soporte1.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.132.138" name="mail.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.36" name="alainaf.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="crm.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="crmnew.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.168.137" name="afflelou.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.244.22" name="aff2.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="crmtest.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="www.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="127.0.0.1" name="localhost.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.132.214" name="news.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="pm.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="www2.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" name="orion.areainnova.com" type="A" zone_server="82.223.132.138"/>
+    <record address="82.223.252.103" mname="ns1.area-innova.com" type="SOA"/>
+    <record Version="[Oops.. Not this time]" address="82.223.252.103" recursive="True" target="ns1.area-innova.com" type="NS"/>
+    <record Version="[Oops.. Not this time]" address="82.223.132.138" recursive="True" target="ns2.area-innova.com" type="NS"/>
+    <record address="82.223.132.138" exchange="mail.areainnova.com" type="MX"/>
+    <record address="82.223.252.103" name="areainnova.com" type="A"/>
+    <record name="areainnova.com" strings="v=spf1 a mx a:draco.areainnova.com a:apolo.area-innova.com ip4:82.223.132.138 ip4:82.223.244.32 ~all" type="TXT"/>
+    <record name="_domainkey.areainnova.com" strings="t=y; o=~;" type="TXT"/>
+    <scaninfo arguments="./dnsrecon.py -d areainnova.com -a --xml /root/examples/dnsrecon/basic.xml" time="2018-04-18 13:11:07.633183"/>
+    <domain domain_name="areainnova.com"/>
+</records>

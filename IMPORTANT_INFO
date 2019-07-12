@@ -1,0 +1,5 @@
+#### NMAP INFO ####
+
+# En /usr/local/lib/python2.7/dist-packages/nmap/nmap.py he modificado el método __init__ de PortScanner para que pueda localizar los scripts de nmap, quedando así (sólo he añadido la última ruta):
+
+#def __init__(self, nmap_search_path=('nmap', '/usr/bin/nmap', '/usr/local/bin/nmap', '/sw/bin/nmap', '/opt/local/bin/nmap', '/usr/share/nmap/scripts')):
