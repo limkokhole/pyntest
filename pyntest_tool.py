@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# R3nt0n
-# 04/2018
+# Pyntest (https://www.github.com/R3nt0n/pyntest)
+# R3nt0n (https://www.github.com/R3nt0n)
 
 import os
 import json
