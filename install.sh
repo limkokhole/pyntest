@@ -1,4 +1,6 @@
 #!/bin/bash
+# Pyntest (https://www.github.com/R3nt0n/pyntest)
+# R3nt0n (https://www.github.com/R3nt0n)
 
 apt update -y && apt upgrade -y
 
